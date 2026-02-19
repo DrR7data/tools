@@ -1,3 +1,9 @@
 [submodule "Angular-prax"]
 	path = Angular-prax
 	url = git@github.com:DrR7data/Angular-prax.git
+[submodule "frontend"]
+	path = frontend
+	url = ./frontend
+[submodule "frontend"]
+	path = backend
+	url = ./backend
