@@ -6,6 +6,15 @@ head:
 	@echo "	\e[1;32m		🌱 ✅:\e[0m"
 venv:
 	@echo "\e[1;35m py✅ \e[0m"
+	uv sync
+	uv run main.py
+
+remove:
+	rm -rf .venv
+	@echo "\e[1;35m Removinf success✅ \e[0m"
+	
+	
+	
 update:
 	apt update && apt upgrade
 

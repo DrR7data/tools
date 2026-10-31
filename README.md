@@ -6,3 +6,7 @@
 
 
 - git submodule add git@github.com:DrR7data/Angular-prax.git --recursive
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+``

@@ -1,4 +1,4 @@
 git add .
-git commit -m "Add Readme.md"
+git commit -m "[tools] Add pyproject.toml"
 git push
 git status
