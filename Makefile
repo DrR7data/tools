@@ -18,7 +18,7 @@ remove:
 	
 	
 update:
-	apt update && apt upgrade
+	sudo apt update && apt upgrade
 
 right:
 	@echo "\e[1;35m All Right, See later you Everybody ✅:\e[0m"
