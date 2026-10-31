@@ -4,6 +4,8 @@ head:
 	@echo "	\e[1;33m === For work with my project 🚀 ===:\e[0m"
 	@echo "	\e[1;36m ===================================:\e[0m"
 	@echo "	\e[1;32m		🌱 ✅:\e[0m"
+i-uv:
+	curl -LsSf https://astral.sh/uv/install.sh | sh
 venv:
 	@echo "\e[1;35m py✅ \e[0m"
 	uv sync
